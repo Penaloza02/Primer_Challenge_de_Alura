@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Encriptador</title>
+    <link rel="stylesheet" href="ventana2.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="Logo.png" class="logo" > 
+        <textarea id="enlazardatos" cols="30" rows="20" placeholder="Ingrese el texto aqui"></textarea>
+
+    </header>
+
+         <main>
+            <section>
+                
+               <textarea class="recuadro" id="rectangulo" cols="30" rows="10"></textarea>
+
+            </section>
+
+            <section>
+                <img id="imagen1" src="Muñeco.png">
+                <textarea   id="cuadro1" cols="19" rows="2"   placeholder="Ningun mensaje fue encontrado"></textarea>
+                <textarea   id="cuadro2" cols="25" rows="3"  placeholder="Ingrese el texto que desees encriptar o desencriptar"></textarea>
+           
+            </section>
+                 <input id="copy" style="display:none" type="button"   onclick="copiar()" value="copiar">
+            <section>
+
+
+            </section>
+    </main>
+
+</body>
+
+
+<footer>
+    <div>
+        <img src="Frame 1.png" class="Simbolo">
+        <input id="inputencriptar"     type="submit"  onclick="encriptar()" value="Encriptar">
+        <input id="inputdesencriptar"  type="submit"   onclick="desencriptar()" value="Desencriptar" >
+
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</html>
